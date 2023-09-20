@@ -2,6 +2,10 @@
   "name": "nebula",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun run index.ts",
+    "tdd": "bun test --watch"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
